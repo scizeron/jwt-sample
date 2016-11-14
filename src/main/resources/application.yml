@@ -1,0 +1,18 @@
+
+security:
+ oauth2:
+  resource:
+   jwt:
+    keyValue: |
+     -----BEGIN PUBLIC KEY----- 
+     MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQB9hkHgXBVm8QoLi7kRUvFbmLBPUwnKc3G0zUP6lu3w54HwPj4uST5XDdSZoXlaJR3VOdJq4aYZjXuzTBTfUPgiplj82O2BPArkQB0Bu1uuYr2ueSm7rUV6RB9VhmsfaM1nBLzJ8FwKYSDB/SvTB7z+A1L4u04SUO3rGttVm53iklDREnsPrIrQbCxfledR37E9ZM2e9MCRxCsvvgc+F9l7vyZvBmQkrPF5+/iTsaoUu6ft7wMn3tS/kswuZVrqQgTMYa+GU0nT9TBIjhVI6iKoyAh/LbU/DIxqbpVt5ms/MkghE8aKArWzpknEWSZ7u8ZK9T+/qXVEqtl/zkVajtBJAgMBAAE= 
+     -----END PUBLIC KEY-----
+
+################################################
+# LOGS
+################################################
+logging:
+ level:
+  com.example: DEBUG
+  org.springframework.security: DEBUG
+  org.springframework.web: DEBUG
