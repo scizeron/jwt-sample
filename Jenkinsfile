@@ -1,11 +1,9 @@
 node {
-   stage('Init Maven') {
-    def mvnHome = tool 'M3'
-   }
    stage('Checkout') {
     checkout scm
    }
    stage ('Build') {
+    def mvnHome = tool 'M3'
     sh "${mvnHome}/bin/mvn clean install"
    }
 }
