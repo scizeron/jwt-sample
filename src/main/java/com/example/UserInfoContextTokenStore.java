@@ -17,6 +17,12 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * 
+ * 
+ * @author stéphane
+ *
+ */
 public class UserInfoContextTokenStore extends JwtTokenStore {
 
 	private static Logger LOGGER = LoggerFactory.getLogger(UserInfoContextTokenStore.class);

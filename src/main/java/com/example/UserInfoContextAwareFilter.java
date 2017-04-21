@@ -22,6 +22,11 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
 
+/**
+ * 
+ * @author stéphane
+ *
+ */
 public class UserInfoContextAwareFilter implements Filter {
 
 	private static Logger LOGGER = LoggerFactory.getLogger(UserInfoContextAwareFilter.class);
@@ -104,6 +109,5 @@ public class UserInfoContextAwareFilter implements Filter {
 		}
 		
 		chain.doFilter(request, response);
-
 	}
 }

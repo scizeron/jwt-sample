@@ -4,6 +4,11 @@ import java.util.List;
 
 import javax.validation.constraints.NotNull;
 
+/**
+ * 
+ * @author stéphane
+ *
+ */
 public class UserInfoContext {
 	
 	@NotNull

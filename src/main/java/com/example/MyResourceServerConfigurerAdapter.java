@@ -11,6 +11,11 @@ import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.web.access.intercept.FilterSecurityInterceptor;
 
+/**
+ * 
+ * @author stéphane
+ *
+ */
 @Configuration
 @EnableResourceServer
 public class MyResourceServerConfigurerAdapter extends ResourceServerConfigurerAdapter {
