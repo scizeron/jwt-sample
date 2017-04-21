@@ -1,5 +1,5 @@
 node {
-   stage('Init') {
+   stage('Init Maven') {
     def mvnHome = tool 'M3'
    }
    stage('Checkout') {
